@@ -1,2 +1,11 @@
-$primary-color: rgb(35, 35, 121);
+@font-face {
+	font-family: columb;
+	src: url(fonts/Columbia-Bold.ttf);
+	font-family: SourceSansVariable;
+	src: url(fonts/SourceSansVariable-Roman.otf);
+}
+
+$navb-color: rgb(0, 0, 0);
 $navb-font: Verdana, Geneva, Tahoma, sans-serif;
+$orange-color: rgb(245, 90, 86);
+$blue-dark-color: rgb(13, 63, 106);

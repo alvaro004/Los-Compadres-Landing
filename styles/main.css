@@ -1,3 +1,10 @@
+@font-face {
+  font-family: columb;
+  src: url(fonts/Columbia-Bold.ttf);
+  font-family: SourceSansVariable;
+  src: url(fonts/SourceSansVariable-Roman.otf);
+}
+
 * {
   margin: 0px;
   padding: 0px;
@@ -23,6 +30,7 @@ section {
       scroll-snap-type: y mandatory;
   overflow-y: scroll;
   height: 100vh;
+  scroll-behavior: smooth;
 }
 
 a {
@@ -30,33 +38,31 @@ a {
   text-decoration: none;
 }
 
-.hero .main-head {
-  background: #131c27;
-  color: white;
+#hero .main-head {
+  background: white;
+  color: #030303;
 }
 
-.hero .main-head nav {
+#hero .main-head nav {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   width: 90%;
   margin: auto;
   padding: 2rem;
-  min-height: 10vh;
+  height: 14vh;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
 }
 
-.hero .main-head nav ul {
+#hero .main-head nav ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-flex: 1;
-      -ms-flex: 1 1 40rem;
-          flex: 1 1 40rem;
+  -webkit-box-flex: 2;
+      -ms-flex: 2 1 40rem;
+          flex: 2 1 40rem;
   -ms-flex-pack: distribute;
       justify-content: space-around;
   -webkit-box-align: center;
@@ -65,19 +71,64 @@ a {
   list-style: none;
 }
 
-.hero .main-head #logo {
+#hero .main-head nav ul a {
+  color: black;
+  font-family: SourceSansVariable;
+  font-size: 2rem;
+  -webkit-transition: color 0.3s ease-in-out;
+  transition: color 0.3s ease-in-out;
+}
+
+#hero .main-head nav ul a:hover {
+  color: #f55a56;
+}
+
+#hero .main-head #logo {
   -webkit-box-flex: 2;
       -ms-flex: 2 1 40rem;
           flex: 2 1 40rem;
 }
 
-.hero .main-head img {
-  height: 3rem;
+#hero .main-head img {
+  height: 10rem;
 }
 
-.hero .background-img {
-  min-height: 90vh;
+#hero .background-img {
+  height: 86vh;
   background: url("assets/img/hero/Recurso1image.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center -10rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#hero .swiper {
+  width: 50vw;
+  height: 50vh;
+  margin: auto;
+  background-color: white;
+  -webkit-box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1), 0px 20px 20px rgba(0, 0, 0, 0.1);
+          box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1), 0px 20px 20px rgba(0, 0, 0, 0.1);
+  border-radius: 0.6rem;
+}
+
+#hero .swiper-wrapper .img1 {
+  background: url("assets/img/hero/Recurso2image.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+#hero .swiper-wrapper .img2 {
+  background: url("assets/img/hero/Recurso3image.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;

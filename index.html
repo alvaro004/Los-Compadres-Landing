@@ -7,31 +7,56 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <script defer src="/js/main.js"></script>
 </head>
 
 <body>
     <div class="scroll-container">
-        <section class="hero">
+        <section id="hero">
+            <!-- navbar -->
             <header class="main-head">
                 <nav>
                     <div id="logo">
                         <img src="styles/assets/img/hero/plantillas_loscompadres_v1.svg" alt="">
                     </div>
                     <ul>
-                        <li><a href="#locations">Locations</a></li>
-                        <li><a href="#benefits">Benefits</a></li>
-                        <li><a href="#contact">Contact</a></li>
+                        <li><a href="#hero">HOME</a></li>
+                        <li><a href="#catalog">CATALOG</a></li>
+                        <li><a href="#aboutUs">ABOUT US</a></li>
+                        <li><a href="#testimonials">TESTIMONIALS</a></li>
+                        <li><a href="#contact">CONTACT</a></li>
                     </ul>
                 </nav>
             </header>
             <div class="background-img">
-
+                <!-- Swiper carousel -->
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide img1"></div>
+                        <div class="swiper-slide img2"></div>
+                    </div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-pagination"></div>
+                </div>
             </div>
         </section>
-        <section class="calog">
+        <section id="catalog">
             <h1>Catlog</h1>
         </section>
+        <section id="aboutUs">
+            <h1>About Us</h1>
+        </section>
+        <section id="testimonials">
+            <h1>TESTIMONIALS</h1>
+        </section>
+        <section id="contact">
+            <h1>contact</h1>
+        </section>
     </div>
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 </body>
 
 </html>
