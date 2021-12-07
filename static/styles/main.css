@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Readex+Pro:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@500&display=swap");
 @font-face {
   font-family: columb;
   src: url(fonts/Columbia-Bold.ttf);
@@ -75,12 +77,13 @@ a {
   color: black;
   font-family: SourceSansVariable;
   font-size: 2rem;
-  -webkit-transition: color 0.3s ease-in-out;
-  transition: color 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
 
 #hero .main-head nav ul a:hover {
   color: #f55a56;
+  font-size: 2.3rem;
 }
 
 #hero .main-head #logo {
@@ -110,24 +113,103 @@ a {
           align-items: center;
 }
 
-#hero .swiper {
-  width: 50vw;
-  height: 50vh;
-  margin: auto;
+#catalog {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#catalog .left-side {
+  width: 35%;
+  height: inherit;
   background-color: white;
-  -webkit-box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1), 0px 20px 20px rgba(0, 0, 0, 0.1);
-          box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1), 0px 20px 20px rgba(0, 0, 0, 0.1);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#catalog .left-side img {
+  width: 100%;
+}
+
+#catalog .right-side {
+  width: 65%;
+  height: inherit;
+  background-color: #f2f2f2;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+#catalog .right-side .text-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 20vh;
+}
+
+#catalog .right-side .text-container h1 {
+  font-size: 6rem;
+  color: #f55a56;
+  font-weight: bold;
+  font-family: 'Outfit', sans-serif;
+  margin-top: 2rem;
+}
+
+#catalog .corousel-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 5rem;
+  height: 80vh;
+}
+
+#catalog .swiper {
+  width: 70rem;
+  height: 30vh;
+  background-color: rgba(155, 56, 56, 0);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+#catalog .swiper-slide {
+  background-color: #ececec;
   border-radius: 0.6rem;
 }
 
-#hero .swiper-wrapper .img1 {
+#catalog .swiper-wrapper .img1 {
   background: url("assets/img/hero/Recurso2image.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
 }
 
-#hero .swiper-wrapper .img2 {
+#catalog .swiper-wrapper .img2 {
   background: url("assets/img/hero/Recurso3image.png");
   background-repeat: no-repeat;
   background-size: cover;
