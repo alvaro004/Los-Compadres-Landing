@@ -113,6 +113,66 @@ a {
           align-items: center;
 }
 
+#banner-products {
+  height: 40vh !important;
+}
+
+#banner-products .swiper {
+  height: 100%;
+  padding: 2rem;
+  width: 60%;
+  margin: auto;
+}
+
+#banner-products .swiper-slide {
+  background-color: #202050;
+  border-radius: 0.6rem;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+          box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+#banner-products .swiper-wrapper .img1 {
+  background: url("assets/img/banner-product/AlegriasdeAmaranto.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+#banner-products .swiper-wrapper .img2 {
+  background: url("assets/img/banner-product/Botanas.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+#banner-products .swiper-wrapper .img3 {
+  background: url("assets/img/banner-product/CacahuateJapones.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+#banner-products .swiper-wrapper .img4 {
+  background: url("assets/img/banner-product/Churrito-grueso.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+#banner-products .swiper-wrapper .img5 {
+  background: url("assets/img/banner-product/Churro-Mega-Chile.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+#banner-products .swiper-wrapper .img6 {
+  background: url("assets/img/banner-product/Mix-Brittle-Bar.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
 #catalog {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -185,6 +245,8 @@ a {
 #catalog .right-side .swiper-slide {
   background-color: white;
   border-radius: 0.6rem;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+          box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;

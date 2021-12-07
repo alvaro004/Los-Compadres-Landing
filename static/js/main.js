@@ -27,10 +27,10 @@ let swiper = new Swiper('.mySwiper', {
 		el: '.swiper-pagination',
 		clickable: true,
 	},
-	// autoplay: {
-	// 	delay: 5000,
-	// 	disableOnInteraction: false,
-	// },
+	autoplay: {
+		delay: 5000,
+		disableOnInteraction: false,
+	},
 	navigation: {
 		nextEl: '.swiper-button-next',
 		prevEl: '.swiper-button-prev',
