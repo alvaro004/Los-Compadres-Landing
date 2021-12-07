@@ -77,8 +77,8 @@ a {
   color: black;
   font-family: SourceSansVariable;
   font-size: 2rem;
-  -webkit-transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
 }
 
 #hero .main-head nav ul a:hover {
@@ -179,24 +179,56 @@ a {
 
 #catalog .right-side .swiper {
   height: 30vh;
-  background-color: rgba(155, 56, 56, 0);
+  padding-bottom: 2rem;
 }
 
 #catalog .right-side .swiper-slide {
   background-color: white;
   border-radius: 0.6rem;
-  cursor: pointer;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: end;
+}
+
+#catalog .right-side .link-container a {
+  color: white;
+  background-color: #3f3d56;
+  padding: 1rem;
+  border-radius: 0.6rem;
+  font-family: 'Outfit', sans-serif;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  position: relative;
+  top: 5px;
+}
+
+#catalog .right-side .link-container a:hover {
+  background-color: #cfcfcf;
+  color: #1e1e5a;
 }
 
 #catalog .right-side .swiper-wrapper .img1 {
-  background: url("assets/img/hero/Recurso2image.png");
+  background: url("assets/img/catalog/elsuperleon.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
 }
 
 #catalog .right-side .swiper-wrapper .img2 {
-  background: url("assets/img/hero/Recurso3image.png");
+  background: url("assets/img/catalog/play-doh-logo.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+#catalog .right-side .swiper-wrapper .img3 {
+  background: url("assets/img/catalog/mix-leche.jfif");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
