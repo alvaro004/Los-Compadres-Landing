@@ -135,7 +135,7 @@ a {
 }
 
 #catalog .left-side img {
-  width: 100%;
+  width: 90%;
 }
 
 #catalog .right-side {
@@ -152,64 +152,50 @@ a {
 }
 
 #catalog .right-side .text-container {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  height: 20vh;
+  width: 80%;
+  margin: auto;
+  height: 25vh;
 }
 
 #catalog .right-side .text-container h1 {
-  font-size: 6rem;
-  color: #f55a56;
-  font-weight: bold;
+  font-size: 4rem;
+  color: #1e1e5a;
   font-family: 'Outfit', sans-serif;
   margin-top: 2rem;
 }
 
-#catalog .corousel-container {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  margin-bottom: 5rem;
-  height: 80vh;
+#catalog .right-side .text-container h1 span {
+  font-size: 8rem;
+  color: #f55a56;
+  font-weight: bold;
 }
 
-#catalog .swiper {
-  width: 70rem;
+#catalog .right-side .corousel-container {
+  height: 75vh;
+  width: 80%;
+  margin: auto;
+  margin-top: 10%;
+}
+
+#catalog .right-side .swiper {
   height: 30vh;
   background-color: rgba(155, 56, 56, 0);
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
 }
 
-#catalog .swiper-slide {
-  background-color: #ececec;
+#catalog .right-side .swiper-slide {
+  background-color: white;
   border-radius: 0.6rem;
+  cursor: pointer;
 }
 
-#catalog .swiper-wrapper .img1 {
+#catalog .right-side .swiper-wrapper .img1 {
   background: url("assets/img/hero/Recurso2image.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
 }
 
-#catalog .swiper-wrapper .img2 {
+#catalog .right-side .swiper-wrapper .img2 {
   background: url("assets/img/hero/Recurso3image.png");
   background-repeat: no-repeat;
   background-size: cover;
