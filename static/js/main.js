@@ -36,3 +36,7 @@ let swiper = new Swiper('.mySwiper', {
 		prevEl: '.swiper-button-prev',
 	},
 });
+
+// ANIMATIONS
+
+AOS.init();

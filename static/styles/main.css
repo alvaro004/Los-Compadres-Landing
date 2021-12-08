@@ -27,17 +27,15 @@ section {
   scroll-snap-align: start;
 }
 
-.scroll-container {
-  -ms-scroll-snap-type: y mandatory;
-      scroll-snap-type: y mandatory;
-  overflow-y: scroll;
-  height: 100vh;
-  scroll-behavior: smooth;
-}
-
 a {
   color: white;
   text-decoration: none;
+}
+
+#hero {
+  -webkit-box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+          box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  background-color: #f2f2f2;
 }
 
 #hero .main-head {
@@ -51,7 +49,6 @@ a {
   display: flex;
   width: 90%;
   margin: auto;
-  padding: 2rem;
   height: 14vh;
   -webkit-box-align: center;
       -ms-flex-align: center;
@@ -65,8 +62,9 @@ a {
   -webkit-box-flex: 2;
       -ms-flex: 2 1 40rem;
           flex: 2 1 40rem;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -75,7 +73,7 @@ a {
 
 #hero .main-head nav ul a {
   color: black;
-  font-family: SourceSansVariable;
+  font-family: 'Outfit', sans-serif;
   font-size: 2rem;
   -webkit-transition: all 0.3s linear;
   transition: all 0.3s linear;
@@ -94,6 +92,50 @@ a {
 
 #hero .main-head img {
   height: 10rem;
+}
+
+#hero .content-wrapper {
+  width: 90%;
+  margin: auto;
+  height: 86vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#hero .content-wrapper .left-side {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 50%;
+}
+
+#hero .content-wrapper .left-side img {
+  width: 100vh;
+}
+
+#hero .content-wrapper .right-side {
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#hero .content-wrapper .right-side h1 {
+  margin-top: 10%;
+  font-family: 'Outfit', sans-serif;
+  font-size: 6rem;
+  color: #0d3f6a;
+}
+
+#hero .content-wrapper .right-side h1 span {
+  color: #f55a56;
 }
 
 #hero .background-img {
