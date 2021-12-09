@@ -2,9 +2,8 @@
 	height: 40vh !important;
 	display: flex;
 	justify-content: center;
-	// align-items: center;
-	width: 90%;
-	margin: auto;
+	// width: 90%;
+	// margin: auto;
 
 	.left-side,
 	.right-side {
@@ -12,31 +11,38 @@
 	}
 
 	.left-side {
-		// background-color: rgb(242, 242, 242);
 		display: flex;
 	}
 
-	.right-side {
+	// .right-side {
+	// 	display: flex;
+	// 	flex-direction: column;
+	// 	justify-content: center;
+	// 	align-items: center;
+	// }
+
+	// .right-side img {
+	// 	transform: rotate(270deg);
+	// }
+
+	// .right-side h2 {
+	// 	font-family: $principal-font;
+	// 	font-size: 4rem;
+	// 	color: $blue-dark-color;
+	// 	transform: translate(0px, 60px);
+	// }
+
+	.img-banner {
+		// height: 86vh;
+		background: url('assets/img/banner-product/pexels-artem-podrez-5025647.jpg');
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: center;
 		display: flex;
-		flex-direction: column;
 		justify-content: center;
 		align-items: center;
+		// @include img-styles('assets/img/banner-product/Recurso2image.png');
 	}
-
-	.right-side img {
-		// width: 6rem;
-		// margin-right: 2rem;
-		fill: blue;
-		transform: rotate(270deg) translate(0px, -0px);
-	}
-
-	.right-side h2 {
-		font-family: 'Outfit', sans-serif;
-		font-size: 4rem;
-		color: rgb(30, 30, 90);
-		transform: translate(0px, 60px);
-	}
-
 	.swiper {
 		height: 90%;
 		padding: 2rem;
@@ -44,7 +50,6 @@
 		margin: auto;
 	}
 	.swiper-slide {
-		background-color: rgb(32, 32, 80);
 		border-radius: 0.6rem;
 		box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
 	}
@@ -66,5 +71,14 @@
 	}
 	.swiper-wrapper .img6 {
 		@include img-styles('assets/img/banner-product/Mix-Brittle-Bar.jpg');
+	}
+	.swiper-wrapper .img7 {
+		@include img-styles('assets/img/banner-product/Peanuts-Chili-and-Lemon.jpg');
+	}
+	.swiper-wrapper .img8 {
+		@include img-styles('assets/img/banner-product/Pepitoria-Mixed.jpg');
+	}
+	.swiper-wrapper .img9 {
+		@include img-styles('assets/img/banner-product/Super-Churros-Locos-Pack-with-Fruit.jpg');
 	}
 }

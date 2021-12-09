@@ -161,8 +161,6 @@ a {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  width: 90%;
-  margin: auto;
 }
 
 #banner-products .left-side,
@@ -176,34 +174,20 @@ a {
   display: flex;
 }
 
-#banner-products .right-side {
+#banner-products .img-banner {
+  background: url("assets/img/banner-product/pexels-artem-podrez-5025647.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-}
-
-#banner-products .right-side img {
-  fill: blue;
-  -webkit-transform: rotate(270deg) translate(0px, 0px);
-          transform: rotate(270deg) translate(0px, 0px);
-}
-
-#banner-products .right-side h2 {
-  font-family: 'Outfit', sans-serif;
-  font-size: 4rem;
-  color: #1e1e5a;
-  -webkit-transform: translate(0px, 60px);
-          transform: translate(0px, 60px);
 }
 
 #banner-products .swiper {
@@ -214,7 +198,6 @@ a {
 }
 
 #banner-products .swiper-slide {
-  background-color: #202050;
   border-radius: 0.6rem;
   -webkit-box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
           box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
@@ -257,6 +240,27 @@ a {
 
 #banner-products .swiper-wrapper .img6 {
   background: url("assets/img/banner-product/Mix-Brittle-Bar.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+#banner-products .swiper-wrapper .img7 {
+  background: url("assets/img/banner-product/Peanuts-Chili-and-Lemon.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+#banner-products .swiper-wrapper .img8 {
+  background: url("assets/img/banner-product/Pepitoria-Mixed.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+#banner-products .swiper-wrapper .img9 {
+  background: url("assets/img/banner-product/Super-Churros-Locos-Pack-with-Fruit.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
