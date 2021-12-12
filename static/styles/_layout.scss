@@ -10,13 +10,14 @@ html {
 
 body {
 	font-family: sans-serif;
+	overflow-x: hidden;
 }
 
 // GLOBAL STYLES
 
 section {
 	height: 100vh;
-	scroll-snap-align: start; //for scrolling matters
+	// scroll-snap-align: start; //for scrolling matters
 	background-color: $main-background;
 }
 
