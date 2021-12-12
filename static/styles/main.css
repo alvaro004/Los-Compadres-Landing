@@ -32,10 +32,6 @@ a {
   text-decoration: none;
 }
 
-#hero {
-  background-color: #f2f2f2;
-}
-
 #hero .main-head {
   background: white;
   color: #030303;
@@ -47,6 +43,7 @@ a {
   display: flex;
   width: 90%;
   margin: auto;
+  padding: 2rem;
   height: 14vh;
   -webkit-box-align: center;
       -ms-flex-align: center;
@@ -57,12 +54,11 @@ a {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-flex: 2;
-      -ms-flex: 2 1 40rem;
-          flex: 2 1 40rem;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -webkit-box-flex: 4;
+      -ms-flex: 4 1 40rem;
+          flex: 4 1 40rem;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -71,10 +67,10 @@ a {
 
 #hero .main-head nav ul a {
   color: black;
-  font-family: 'Outfit', sans-serif;
+  font-family: "Outfit", sans-serif;
   font-size: 2rem;
-  -webkit-transition: all 0.3s linear;
-  transition: all 0.3s linear;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
 
 #hero .main-head nav ul a:hover {
@@ -90,50 +86,6 @@ a {
 
 #hero .main-head img {
   height: 10rem;
-}
-
-#hero .content-wrapper {
-  width: 90%;
-  margin: auto;
-  height: 86vh;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-#hero .content-wrapper .left-side {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  width: 50%;
-}
-
-#hero .content-wrapper .left-side img {
-  width: 100vh;
-}
-
-#hero .content-wrapper .right-side {
-  width: 50%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-#hero .content-wrapper .right-side h1 {
-  margin-top: 10%;
-  font-family: 'Outfit', sans-serif;
-  font-size: 6rem;
-  color: #0d3f6a;
-}
-
-#hero .content-wrapper .right-side h1 span {
-  color: #f55a56;
 }
 
 #hero .background-img {
