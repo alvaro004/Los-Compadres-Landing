@@ -1,7 +1,6 @@
-@mixin div-positions($width, $color) {
+@mixin div-positions($width) {
 	width: $width;
 	height: inherit;
-	background-color: $color;
 }
 
 @mixin img-styles($route) {
@@ -25,11 +24,7 @@
 #catalog {
 	display: flex;
 	.left-side {
-		@include div-positions(50%, rgb(255, 255, 255));
-		// @include flex-center();
-		// img {
-		// 	width: 90%;
-		// }
+		@include div-positions(50%);
 		.img-left-side {
 			height: 100vh;
 			width: 100%;
@@ -37,21 +32,17 @@
 		}
 	}
 	.right-side {
-		@include div-positions(50%, rgb(242, 242, 242));
+		@include div-positions(50%);
 		display: flex;
 		flex-direction: column;
 		justify-content: space-evenly;
 
 		.text-container {
 			margin: 2rem;
-			// @include right-side-content-position();
-			// height: 25vh;
 		}
 		.text-container h1 {
 			font-size: 4rem;
 			color: rgb(30, 30, 90);
-			// font-family: SourceSansVariable;
-			// font-family: 'Readex Pro', sans-serif;
 			font-family: $principal-font;
 			margin-top: 2rem;
 			span {
@@ -64,9 +55,6 @@
 		// carousel
 		.corousel-container {
 			margin: 2rem;
-			// height: 75vh;
-			// @include right-side-content-position();
-			// margin-top: 10%;
 		}
 
 		.swiper {
@@ -109,5 +97,3 @@
 		}
 	}
 }
-
-// play-doh-logo.jpg

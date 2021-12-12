@@ -25,6 +25,7 @@ body {
 section {
   height: 100vh;
   scroll-snap-align: start;
+  background-color: #f2f2f2;
 }
 
 a {
@@ -112,7 +113,6 @@ a {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  background-color: #f2f2f2;
 }
 
 #banner-products .left-side,
@@ -243,7 +243,6 @@ a {
 #catalog .left-side {
   width: 50%;
   height: inherit;
-  background-color: white;
 }
 
 #catalog .left-side .img-left-side {
@@ -258,7 +257,6 @@ a {
 #catalog .right-side {
   width: 50%;
   height: inherit;
-  background-color: #f2f2f2;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -349,5 +347,58 @@ a {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+}
+
+#aboutUs {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#aboutUs .left-side {
+  width: 60%;
+}
+
+#aboutUs .left-side .img-about-us {
+  height: 100vh;
+  width: 100%;
+  background: url("assets/img/banner-product/Recurso2image.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+#aboutUs .right-side {
+  width: 40%;
+}
+
+#aboutUs .right-side .box-content {
+  width: 80%;
+  margin: auto;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#aboutUs .right-side .box-content h1 {
+  color: #0d3f6a;
+  font-size: 6rem;
+  margin-bottom: 2rem;
+  font-family: "Outfit", sans-serif;
+}
+
+#aboutUs .right-side .box-content span {
+  font-size: 2rem;
 }
 /*# sourceMappingURL=main.css.map */

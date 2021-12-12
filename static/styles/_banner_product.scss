@@ -1,10 +1,6 @@
 #banner-products {
-	// height: 40vh !important;
 	display: flex;
 	justify-content: center;
-	background-color: $main-background;
-	// width: 90%;
-	// margin: auto;
 
 	.left-side,
 	.right-side {
@@ -21,30 +17,10 @@
 			font-size: 4rem;
 			color: $blue-dark-color;
 			margin-bottom: 2rem;
-			// transform: translate(0px, 60px);
 		}
 	}
 
-	// .right-side {
-	// 	display: flex;
-	// 	flex-direction: column;
-	// 	justify-content: center;
-	// 	align-items: center;
-	// }
-
-	// .right-side img {
-	// 	transform: rotate(270deg);
-	// }
-
-	// .right-side h2 {
-	// 	font-family: $principal-font;
-	// 	font-size: 4rem;
-	// 	color: $blue-dark-color;
-	// 	transform: translate(0px, 60px);
-	// }
-
 	.img-banner {
-		// height: 86vh;
 		background: url('assets/img/banner-product/Recurso2image.png');
 		background-repeat: no-repeat;
 		background-size: cover;
@@ -52,13 +28,11 @@
 		display: flex;
 		justify-content: center;
 		align-items: center;
-		// @include img-styles('assets/img/banner-product/Recurso2image.png');
 	}
 	.swiper {
 		height: 26rem;
 		padding: 2rem;
 		width: 100%;
-		// margin: auto;
 	}
 	.swiper-slide {
 		border-radius: 0.6rem;
