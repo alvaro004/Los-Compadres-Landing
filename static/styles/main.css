@@ -154,13 +154,13 @@ a {
 }
 
 #banner-products {
-  height: 40vh !important;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  background-color: #f2f2f2;
 }
 
 #banner-products .left-side,
@@ -172,10 +172,27 @@ a {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#banner-products .left-side h2 {
+  font-family: "Outfit", sans-serif;
+  font-size: 4rem;
+  color: #0d3f6a;
+  margin-bottom: 2rem;
 }
 
 #banner-products .img-banner {
-  background: url("assets/img/banner-product/pexels-artem-podrez-5025647.jpg");
+  background: url("assets/img/banner-product/Recurso2image.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -191,10 +208,9 @@ a {
 }
 
 #banner-products .swiper {
-  height: 90%;
+  height: 26rem;
   padding: 2rem;
   width: 100%;
-  margin: auto;
 }
 
 #banner-products .swiper-slide {
@@ -273,26 +289,22 @@ a {
 }
 
 #catalog .left-side {
-  width: 35%;
+  width: 50%;
   height: inherit;
   background-color: white;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
 }
 
-#catalog .left-side img {
-  width: 90%;
+#catalog .left-side .img-left-side {
+  height: 100vh;
+  width: 100%;
+  background: url("assets/img/catalog/ImgCompadres.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
 #catalog .right-side {
-  width: 65%;
+  width: 50%;
   height: inherit;
   background-color: #f2f2f2;
   display: -webkit-box;
@@ -302,18 +314,19 @@ a {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
 }
 
 #catalog .right-side .text-container {
-  width: 80%;
-  margin: auto;
-  height: 25vh;
+  margin: 2rem;
 }
 
 #catalog .right-side .text-container h1 {
   font-size: 4rem;
   color: #1e1e5a;
-  font-family: 'Outfit', sans-serif;
+  font-family: "Outfit", sans-serif;
   margin-top: 2rem;
 }
 
@@ -324,10 +337,7 @@ a {
 }
 
 #catalog .right-side .corousel-container {
-  height: 75vh;
-  width: 80%;
-  margin: auto;
-  margin-top: 10%;
+  margin: 2rem;
 }
 
 #catalog .right-side .swiper {

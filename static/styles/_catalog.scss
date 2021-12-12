@@ -25,26 +25,34 @@
 #catalog {
 	display: flex;
 	.left-side {
-		@include div-positions(35%, rgb(255, 255, 255));
-		@include flex-center();
-		img {
-			width: 90%;
+		@include div-positions(50%, rgb(255, 255, 255));
+		// @include flex-center();
+		// img {
+		// 	width: 90%;
+		// }
+		.img-left-side {
+			height: 100vh;
+			width: 100%;
+			@include img-styles('assets/img/catalog/ImgCompadres.png');
 		}
 	}
 	.right-side {
-		@include div-positions(65%, rgb(242, 242, 242));
+		@include div-positions(50%, rgb(242, 242, 242));
 		display: flex;
 		flex-direction: column;
+		justify-content: space-evenly;
+
 		.text-container {
-			@include right-side-content-position();
-			height: 25vh;
+			margin: 2rem;
+			// @include right-side-content-position();
+			// height: 25vh;
 		}
 		.text-container h1 {
 			font-size: 4rem;
 			color: rgb(30, 30, 90);
 			// font-family: SourceSansVariable;
 			// font-family: 'Readex Pro', sans-serif;
-			font-family: 'Outfit', sans-serif;
+			font-family: $principal-font;
 			margin-top: 2rem;
 			span {
 				font-size: 8rem;
@@ -55,9 +63,10 @@
 
 		// carousel
 		.corousel-container {
-			height: 75vh;
-			@include right-side-content-position();
-			margin-top: 10%;
+			margin: 2rem;
+			// height: 75vh;
+			// @include right-side-content-position();
+			// margin-top: 10%;
 		}
 
 		.swiper {
