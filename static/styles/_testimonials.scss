@@ -1,0 +1,56 @@
+#testimonials {
+	display: flex;
+	// .superior-index {
+	// 	width: 100%;
+	// }
+	.swiper {
+		z-index: 2;
+		height: 45vh;
+		position: absolute;
+		left: 50%;
+		transform: translate(-50%, 50%);
+		width: 80%;
+		padding: 2rem;
+		margin: auto !important;
+	}
+	.swiper-slide {
+		border-radius: 0.6rem;
+		box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+		background-color: rgb(232, 238, 248);
+
+		header {
+			height: 30%;
+			background-color: $orange-color;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			border-radius: 0.6rem 0.6rem 0 0;
+			font-size: 2.5rem;
+			color: white;
+			font-family: $navb-font;
+		}
+		.text-container {
+			display: flex;
+			height: 70%;
+			align-items: center;
+			border-radius: 0 0 0.6rem 0.6rem;
+
+			.text-wrapper {
+				text-align: center;
+				padding: 2rem;
+				margin-bottom: 4rem;
+			}
+			span {
+				font-size: 2rem;
+				font-family: $navb-font;
+			}
+		}
+	}
+	.left-background,
+	.right-background {
+		width: 50%;
+	}
+	.right-background {
+		@include img-styles('assets/img/testimonials/algo.png');
+	}
+}

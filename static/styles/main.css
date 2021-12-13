@@ -398,4 +398,81 @@ a {
 #aboutUs .right-side .box-content span {
   font-size: 2rem;
 }
+
+#testimonials {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#testimonials .swiper {
+  z-index: 2;
+  height: 45vh;
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translate(-50%, 50%);
+          transform: translate(-50%, 50%);
+  width: 80%;
+  padding: 2rem;
+  margin: auto !important;
+}
+
+#testimonials .swiper-slide {
+  border-radius: 0.6rem;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+          box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  background-color: #e8eef8;
+}
+
+#testimonials .swiper-slide header {
+  height: 30%;
+  background-color: #f55a56;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 0.6rem 0.6rem 0 0;
+  font-size: 2.5rem;
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#testimonials .swiper-slide .text-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 70%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 0 0 0.6rem 0.6rem;
+}
+
+#testimonials .swiper-slide .text-container .text-wrapper {
+  text-align: center;
+  padding: 2rem;
+  margin-bottom: 4rem;
+}
+
+#testimonials .swiper-slide .text-container span {
+  font-size: 2rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#testimonials .left-background,
+#testimonials .right-background {
+  width: 50%;
+}
+
+#testimonials .right-background {
+  background: url("assets/img/testimonials/algo.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
 /*# sourceMappingURL=main.css.map */
