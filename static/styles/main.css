@@ -355,8 +355,9 @@ a {
   display: flex;
 }
 
-#aboutUs .left-side {
-  width: 60%;
+#aboutUs .left-side,
+#aboutUs .right-side {
+  width: 50%;
 }
 
 #aboutUs .left-side .img-about-us {
@@ -366,10 +367,6 @@ a {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-}
-
-#aboutUs .right-side {
-  width: 40%;
 }
 
 #aboutUs .right-side .box-content {

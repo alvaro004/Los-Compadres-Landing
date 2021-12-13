@@ -1,7 +1,11 @@
 #aboutUs {
 	display: flex;
+	.left-side,
+	.right-side {
+		width: 50%;
+	}
 	.left-side {
-		width: 60%;
+		// width: 60%;
 		.img-about-us {
 			height: 100vh;
 			width: 100%;
@@ -9,7 +13,7 @@
 		}
 	}
 	.right-side {
-		width: 40%;
+		// width: 40%;
 		.box-content {
 			width: 80%;
 			margin: auto;
