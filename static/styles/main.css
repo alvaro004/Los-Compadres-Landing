@@ -91,7 +91,7 @@ a {
 
 #hero .background-img {
   height: 86vh;
-  background: url("assets/img/hero/Recurso1image.png");
+  background: url("assets/img/hero/OnlyBox.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center -10rem;
@@ -474,5 +474,206 @@ a {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+}
+
+#contact .main-content {
+  height: 75vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#contact .main-content .contact-card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 70rem;
+  height: 45rem;
+  background-color: #0d3f6a;
+  border-radius: 2rem;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+          box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  color: white;
+  font-family: "Outfit", sans-serif;
+}
+
+#contact .main-content .contact-card h1 {
+  font-size: 5rem;
+  position: relative;
+  height: 30%;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#contact .main-content .contact-card form {
+  position: relative;
+  height: 70%;
+  width: 100%;
+}
+
+#contact .main-content .contact-card form .main-body {
+  position: relative;
+  height: 70%;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+#contact .main-content .contact-card form .main-body .container-box {
+  font-size: 2rem;
+}
+
+#contact .main-content .contact-card form .main-body .a,
+#contact .main-content .contact-card form .main-body .b {
+  margin-right: 4rem;
+}
+
+#contact .main-content .contact-card form .main-body .c {
+  margin-right: 1.5rem;
+}
+
+#contact .main-content .contact-card form .main-body .message-box {
+  padding-bottom: 4rem;
+}
+
+#contact .main-content .contact-card form .main-body input {
+  border-radius: 5px;
+  padding: 0.5rem;
+  border: none;
+}
+
+#contact .main-content .contact-card form .container-btn {
+  height: 30%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+#contact .main-content .contact-card form .container-btn button {
+  position: relative;
+  width: 100%;
+  border: none;
+  padding: 2rem;
+  cursor: pointer;
+  font-size: 2rem;
+  font-family: "Outfit", sans-serif;
+  font-weight: bolder;
+  background-color: #f55a56;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+          box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  border-radius: 0 0 2rem 2rem;
+  color: white;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+
+#contact .main-content .contact-card form .container-btn button:hover {
+  color: black;
+  background-color: #f2f2f2;
+}
+
+#contact footer {
+  height: 25vh;
+  background-color: #0d3f6a;
+  color: white;
+  font-family: "Outfit", sans-serif;
+}
+
+#contact footer .content-footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100%;
+  width: 90%;
+  margin: auto;
+}
+
+#contact footer .left-side {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 20%;
+}
+
+#contact footer .right-side {
+  width: 80%;
+}
+
+#contact footer .right-side .info-box {
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+#contact footer .right-side .contact-us-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+#contact footer .right-side h1 {
+  padding: 1.5rem 0;
+  font-size: 2rem;
+}
+
+#contact footer .right-side span {
+  font-size: 1.5rem;
+}
+
+#contact footer .right-side .span-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 /*# sourceMappingURL=main.css.map */
