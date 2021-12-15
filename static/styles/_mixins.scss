@@ -1,0 +1,16 @@
+// mixin for center images
+
+@mixin img-styles($route) {
+	background: url($route);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+// mixin for center content with display flex
+
+@mixin flex-center() {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
