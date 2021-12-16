@@ -34,6 +34,7 @@ const navSlide = () => {
 		// toggle nav
 
 		nav.classList.toggle('nav-active');
+		nav.classList.toggle('show-nav');
 
 		//Animate Links
 		navLinks.forEach((link, index) => {
