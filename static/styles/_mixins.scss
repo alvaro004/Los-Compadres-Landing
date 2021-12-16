@@ -22,6 +22,17 @@
 	background-position: center;
 }
 
+@mixin img-styles-display() {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+	height: inherit;
+	object-fit: cover;
+	border-radius: 0.6rem;
+	box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
 @mixin flex-center() {
 	display: flex;
 	align-items: center;

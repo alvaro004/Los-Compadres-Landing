@@ -108,10 +108,10 @@ a {
 
 #hero .background-img {
   height: 85vh;
-  background: url("assets/img/hero/OnlyBox.jpg");
+  background: url("assets/img/hero/BoxLogo_9.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center -10rem;
+  background-position: center;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -188,67 +188,17 @@ a {
           box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
 }
 
-#banner-products .swiper-wrapper .img1 {
-  background: url("assets/img/banner-product/AlegriasdeAmaranto.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-}
-
-#banner-products .swiper-wrapper .img2 {
-  background: url("assets/img/banner-product/Botanas.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-}
-
-#banner-products .swiper-wrapper .img3 {
-  background: url("assets/img/banner-product/CacahuateJapones.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-}
-
-#banner-products .swiper-wrapper .img4 {
-  background: url("assets/img/banner-product/Churrito-grueso.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-}
-
-#banner-products .swiper-wrapper .img5 {
-  background: url("assets/img/banner-product/Churro-Mega-Chile.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-}
-
-#banner-products .swiper-wrapper .img6 {
-  background: url("assets/img/banner-product/Mix-Brittle-Bar.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-}
-
-#banner-products .swiper-wrapper .img7 {
-  background: url("assets/img/banner-product/Peanuts-Chili-and-Lemon.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-}
-
-#banner-products .swiper-wrapper .img8 {
-  background: url("assets/img/banner-product/Pepitoria-Mixed.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-}
-
-#banner-products .swiper-wrapper .img9 {
-  background: url("assets/img/banner-product/Super-Churros-Locos-Pack-with-Fruit.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
+#banner-products .swiper-wrapper img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  height: inherit;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 0.6rem;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+          box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
 }
 
 #catalog {
@@ -323,6 +273,21 @@ a {
           align-items: end;
 }
 
+#catalog .right-side .link-container {
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
 #catalog .right-side .link-container a {
   color: white;
   background-color: #3f3d56;
@@ -332,12 +297,25 @@ a {
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
   position: relative;
-  top: 5px;
+  top: -10px;
 }
 
 #catalog .right-side .link-container a:hover {
   background-color: #cfcfcf;
   color: #1e1e5a;
+}
+
+#catalog .right-side .swiper-wrapper img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  height: inherit;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 0.6rem;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+          box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
 }
 
 #catalog .right-side .swiper-wrapper .img1 {
