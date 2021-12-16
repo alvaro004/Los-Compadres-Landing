@@ -82,4 +82,36 @@
 			transform: translateY(-50%);
 		}
 	}
+
+	#catalog {
+		flex-direction: column;
+		.right-side,
+		.left-side {
+			// position: relative;
+			width: 100%;
+			height: 50vh;
+		}
+		.left-side {
+			background-position: center -14rem;
+			height: inherit;
+		}
+		.right-side {
+			// width: 100%;
+			height: inherit;
+			.text-container h1 {
+				text-align: center;
+			}
+		}
+
+		// carousel
+		.corousel-container {
+			margin: 2rem;
+		}
+
+		.swiper {
+			height: 28rem !important;
+			width: 26rem;
+			// padding-bottom: 2rem;
+		}
+	}
 }

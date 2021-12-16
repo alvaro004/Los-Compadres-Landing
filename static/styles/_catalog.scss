@@ -24,15 +24,13 @@
 #catalog {
 	display: flex;
 	.left-side {
-		@include div-positions(50%);
-		.img-left-side {
-			height: 100vh;
-			width: 100%;
-			@include img-styles('assets/img/catalog/ImgCompadres.png');
-		}
+		@include img-styles('assets/img/catalog/ImgCompadres.png');
+		width: 50%;
+		height: 100vh;
 	}
 	.right-side {
-		@include div-positions(50%);
+		width: 50%;
+		height: 100vh;
 		display: flex;
 		flex-direction: column;
 		justify-content: space-evenly;
@@ -41,12 +39,12 @@
 			margin: 2rem;
 		}
 		.text-container h1 {
-			font-size: 4rem;
+			font-size: 5rem;
 			color: rgb(30, 30, 90);
 			font-family: $principal-font;
 			margin-top: 2rem;
 			span {
-				font-size: 2rem;
+				font-size: 4rem;
 				color: rgb(245, 90, 86);
 				font-weight: bold;
 			}
