@@ -1,0 +1,85 @@
+@media screen and (max-width: 970px) {
+	// HERO SECTION
+	#hero {
+		.main-head {
+			.nav-links {
+				z-index: 2;
+				position: absolute;
+				right: 0rem;
+				height: 85%;
+				top: 15vh;
+				background-color: $main-background;
+				display: flex;
+				flex-direction: column;
+				align-items: center;
+				width: 100%;
+				overflow-x: hidden;
+				transform: translateX(100%); //this with overflow-x  move the container to the right
+				transition: transform 0.3s ease-in-out;
+				display: none;
+				li {
+					opacity: 0;
+					a {
+						font-size: 1.7rem !important;
+					}
+				}
+			}
+
+			.nav-active {
+				transform: translateX(0%);
+			}
+			.show-nav {
+				display: flex;
+			}
+			.burger {
+				display: block;
+				cursor: pointer;
+			}
+
+			img {
+				height: 6rem;
+			}
+
+			@keyframes navLinkFade {
+				from {
+					opacity: 0;
+					transform: translateX(50px);
+				}
+				to {
+					opacity: 1;
+					transform: translateX(0px);
+				}
+			}
+		}
+		.background-img {
+			background-position: center;
+		}
+	}
+
+	// BANNER PRODUCTS
+	#banner-products {
+		display: flex;
+		flex-direction: column;
+		.left-side,
+		.right-side {
+			position: absolute;
+			width: 100%;
+			height: 50vh;
+		}
+		.left-side {
+			transform: translateY(50%);
+			.swiper {
+				height: 30rem;
+				padding: 2rem;
+				max-width: 28rem;
+			}
+			h2 {
+				font-size: 3rem;
+				margin-top: 2rem;
+			}
+		}
+		.right-side {
+			transform: translateY(-50%);
+		}
+	}
+}

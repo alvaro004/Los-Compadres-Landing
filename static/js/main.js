@@ -1,22 +1,54 @@
-// CAROUSEL
-let swiper = new Swiper('.mySwiper', {
-	slidesPerView: 3,
-	spaceBetween: 30,
-	slidesPerGroup: 3,
-	loop: true,
-	loopFillGroupWithBlank: true,
-	pagination: {
-		el: '.swiper-pagination',
-		clickable: true,
-	},
-	autoplay: {
-		delay: 5000,
-		disableOnInteraction: false,
-	},
-	navigation: {
-		nextEl: '.swiper-button-next',
-		prevEl: '.swiper-button-prev',
-	},
+// CAROUSEL BASED ON THE WIEW PORT
+let sizeChange = window.innerWidth;
+// console.log(sizeChange);
+const changeSwipper = function () {
+	if (sizeChange <= 970) {
+		var swiper = new Swiper('.mySwiper', {
+			slidesPerView: 1,
+			spaceBetween: 30,
+			loop: true,
+			pagination: {
+				el: '.swiper-pagination',
+				clickable: true,
+			},
+			autoplay: {
+				delay: 1000,
+				disableOnInteraction: false,
+			},
+			navigation: {
+				nextEl: '.swiper-button-next',
+				prevEl: '.swiper-button-prev',
+			},
+		});
+	} else {
+		let swiper = new Swiper('.mySwiper', {
+			slidesPerView: 3,
+			spaceBetween: 30,
+			slidesPerGroup: 3,
+			loop: true,
+			loopFillGroupWithBlank: true,
+			pagination: {
+				el: '.swiper-pagination',
+				clickable: true,
+			},
+			autoplay: {
+				delay: 5000,
+				disableOnInteraction: false,
+			},
+			navigation: {
+				nextEl: '.swiper-button-next',
+				prevEl: '.swiper-button-prev',
+			},
+		});
+	}
+};
+
+changeSwipper();
+
+window.addEventListener('resize', () => {
+	sizeChange = window.innerWidth;
+	// console.log(sizeChange);
+	changeSwipper();
 });
 
 // ANIMATIONS
