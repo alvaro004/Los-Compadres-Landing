@@ -8,6 +8,7 @@
 		@include img-styles('assets/img/banner-product/Recurso2image.png');
 	}
 	.right-side {
+		display: flex;
 		.box-content {
 			width: 80%;
 			margin: auto;
