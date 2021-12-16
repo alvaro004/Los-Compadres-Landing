@@ -45,7 +45,7 @@ a {
   display: flex;
   width: 90%;
   margin: auto;
-  min-height: 15vh;
+  height: 15vh;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -121,17 +121,6 @@ a {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-}
-
-@media screen and (max-width: 1190px) {
-  #hero .main-head nav ul {
-    -webkit-box-flex: 2;
-        -ms-flex: 2 1 60rem;
-            flex: 2 1 60rem;
-  }
-  #hero .main-head a {
-    font-size: 1rem !important;
-  }
 }
 
 #banner-products {
@@ -383,9 +372,7 @@ a {
   width: 50%;
 }
 
-#aboutUs .left-side .img-about-us {
-  height: 100vh;
-  width: 100%;
+#aboutUs .left-side {
   background: url("assets/img/banner-product/Recurso2image.png");
   background-repeat: no-repeat;
   background-size: cover;
@@ -644,7 +631,7 @@ a {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  height: 100%;
+  height: inherit;
   width: 90%;
   margin: auto;
 }
@@ -698,6 +685,17 @@ a {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+}
+
+@media screen and (max-width: 1190px) {
+  #hero .main-head nav ul {
+    -webkit-box-flex: 2;
+        -ms-flex: 2 1 60rem;
+            flex: 2 1 60rem;
+  }
+  #hero .main-head a {
+    font-size: 1rem !important;
+  }
 }
 
 @media screen and (max-width: 970px) {
@@ -821,7 +819,7 @@ a {
     height: 50vh;
   }
   #catalog .left-side {
-    background-position: center -14rem;
+    background-position: center;
     height: inherit;
   }
   #catalog .right-side {
@@ -836,6 +834,63 @@ a {
   #catalog .swiper {
     height: 28rem !important;
     width: 26rem;
+  }
+  #aboutUs {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  #aboutUs .left-side,
+  #aboutUs .right-side {
+    position: absolute;
+    width: 100%;
+    height: 50vh;
+  }
+  #aboutUs .left-side {
+    -webkit-transform: translateY(0%);
+            transform: translateY(0%);
+  }
+  #aboutUs .right-side {
+    -webkit-transform: translateY(100%);
+            transform: translateY(100%);
+  }
+  #aboutUs .box-content {
+    height: unset !important;
+  }
+  #aboutUs .box-content h1 {
+    font-size: 3rem !important;
+    text-align: center;
+    margin-top: 1rem;
+  }
+  #aboutUs .box-content span {
+    font-size: 1rem !important;
+    text-align: center;
+  }
+  #contact .main-content {
+    height: 85vh !important;
+  }
+  #contact .contact-card {
+    width: 36rem !important;
+    height: 40rem !important;
+  }
+  #contact .contact-card h1 {
+    font-size: 3rem !important;
+  }
+  #contact .contact-card form .container-box {
+    font-size: 1.8rem !important;
+  }
+  #contact .contact-card form button {
+    font-size: 1.8rem !important;
+  }
+  #contact footer {
+    height: 15vh !important;
+  }
+  #contact footer .right-side h1 {
+    font-size: 0.8rem !important;
+  }
+  #contact footer .right-side span {
+    font-size: 0.6rem !important;
   }
 }
 /*# sourceMappingURL=main.css.map */

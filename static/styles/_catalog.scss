@@ -1,26 +1,3 @@
-@mixin div-positions($width) {
-	width: $width;
-	height: inherit;
-}
-
-@mixin img-styles($route) {
-	background: url($route);
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: center;
-}
-
-@mixin flex-center() {
-	display: flex;
-	align-items: center;
-	justify-content: center;
-}
-
-@mixin right-side-content-position() {
-	width: 80%;
-	margin: auto;
-}
-
 #catalog {
 	display: flex;
 	.left-side {

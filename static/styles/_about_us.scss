@@ -5,15 +5,9 @@
 		width: 50%;
 	}
 	.left-side {
-		// width: 60%;
-		.img-about-us {
-			height: 100vh;
-			width: 100%;
-			@include img-styles('assets/img/banner-product/Recurso2image.png');
-		}
+		@include img-styles('assets/img/banner-product/Recurso2image.png');
 	}
 	.right-side {
-		// width: 40%;
 		.box-content {
 			width: 80%;
 			margin: auto;
@@ -32,6 +26,5 @@
 				font-size: 2rem;
 			}
 		}
-		// margin: 2rem;
 	}
 }

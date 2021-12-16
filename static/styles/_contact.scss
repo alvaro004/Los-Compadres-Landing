@@ -39,20 +39,15 @@
 					.container-box {
 						font-size: 2rem;
 					}
-					// label {
-					// 	margin-right: 1rem;
-					// }
 					.a,
 					.b {
 						margin-right: 4rem;
 					}
 					.c {
 						margin-right: 1.5rem;
-						// width: 8rem;
 					}
 					.message-box {
 						padding-bottom: 4rem;
-						// width: %;
 					}
 					input {
 						border-radius: 5px;
@@ -94,9 +89,8 @@
 		color: white;
 		font-family: $principal-font;
 		.content-footer {
-			// position: relative;
 			display: flex;
-			height: 100%;
+			height: inherit;
 			width: 90%;
 			margin: auto;
 		}
