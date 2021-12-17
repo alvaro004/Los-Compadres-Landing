@@ -180,7 +180,7 @@ a {
 
 #banner-products .swiper {
   height: 26rem;
-  padding: 2rem;
+  padding: 1rem;
   width: 100%;
 }
 
@@ -273,6 +273,18 @@ a {
   -webkit-box-align: end;
       -ms-flex-align: end;
           align-items: end;
+}
+
+#catalog .right-side .swiper-button-prev,
+#catalog .right-side .swiper-rtl .swiper-button-next {
+  left: 0px;
+  right: auto;
+}
+
+#catalog .right-side .swiper-button-next,
+#catalog .right-side .swiper-rtl .swiper-button-prev {
+  right: 0px;
+  left: auto;
 }
 
 #catalog .right-side .link-container {
@@ -394,7 +406,7 @@ a {
   -webkit-transform: translate(-50%, 80%);
           transform: translate(-50%, 80%);
   width: 80%;
-  padding: 2rem;
+  padding: 1rem;
   margin: auto !important;
 }
 
