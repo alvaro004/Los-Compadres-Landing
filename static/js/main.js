@@ -45,12 +45,6 @@ const changeSwipper = function () {
 
 changeSwipper();
 
-window.addEventListener('resize', () => {
-	sizeChange = window.innerWidth;
-	// console.log(sizeChange);
-	changeSwipper();
-});
-
 // ANIMATIONS
 
 AOS.init();

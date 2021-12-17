@@ -16,6 +16,8 @@
 
 html {
   font-size: 62.5%;
+  min-width: 100%;
+  overflow-x: hidden;
 }
 
 body {
@@ -24,8 +26,6 @@ body {
 
 section {
   height: 100vh;
-  width: 100%;
-  overflow-x: hidden;
   background-color: #f2f2f2;
 }
 
@@ -404,11 +404,39 @@ a {
   height: 45vh;
   position: absolute;
   left: 50%;
-  -webkit-transform: translate(-50%, 50%);
-          transform: translate(-50%, 50%);
+  -webkit-transform: translate(-50%, 80%);
+          transform: translate(-50%, 80%);
   width: 80%;
   padding: 2rem;
   margin: auto !important;
+}
+
+#testimonials .text-content {
+  z-index: 3;
+  height: 100vh;
+  width: 100%;
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 15rem;
+}
+
+#testimonials .text-content h1 {
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  color: #f55a56;
+  font-size: 4rem;
+  border-radius: 0.6rem;
+  font-family: 'Outfit', sans-serif;
+  padding: 2rem;
+  background-color: white;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+          box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
 }
 
 #testimonials .swiper-slide {
@@ -433,7 +461,7 @@ a {
   border-radius: 0.6rem 0.6rem 0 0;
   font-size: 2.5rem;
   color: white;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: 'Outfit', sans-serif;
 }
 
 #testimonials .swiper-slide .text-container {
@@ -455,7 +483,7 @@ a {
 
 #testimonials .swiper-slide .text-container span {
   font-size: 2rem;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: 'Outfit', sans-serif;
 }
 
 #testimonials .left-background,
@@ -854,6 +882,16 @@ a {
   #aboutUs .box-content span {
     font-size: 1.2rem !important;
     text-align: center;
+  }
+  #testimonials .text-content h1 {
+    font-size: 2rem;
+    padding: 1rem;
+  }
+  #testimonials .swiper-slide header h1 {
+    font-size: 1.6rem;
+  }
+  #testimonials .swiper-slide span {
+    font-size: 1.5rem !important;
   }
   #contact .main-content {
     height: 85vh !important;
