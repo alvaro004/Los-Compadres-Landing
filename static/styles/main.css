@@ -318,25 +318,9 @@ a {
           box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
 }
 
-#catalog .right-side .swiper-wrapper .img1 {
-  background: url("assets/img/catalog/elsuperleon.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-}
-
-#catalog .right-side .swiper-wrapper .img2 {
-  background: url("assets/img/catalog/play-doh-logo.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-}
-
-#catalog .right-side .swiper-wrapper .img3 {
-  background: url("assets/img/catalog/mix-leche.jfif");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
+#catalog .right-side .rio-brand {
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
 }
 
 #aboutUs {

@@ -71,15 +71,8 @@
 		.swiper-wrapper img {
 			@include img-styles-display();
 		}
-
-		.swiper-wrapper .img1 {
-			@include img-styles('assets/img/catalog/elsuperleon.png');
-		}
-		.swiper-wrapper .img2 {
-			@include img-styles('assets/img/catalog/play-doh-logo.jpg');
-		}
-		.swiper-wrapper .img3 {
-			@include img-styles('assets/img/catalog/mix-leche.jfif');
+		.rio-brand {
+			box-shadow: none !important;
 		}
 	}
 }
