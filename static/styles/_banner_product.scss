@@ -42,4 +42,14 @@
 	.swiper-wrapper img {
 		@include img-styles-display();
 	}
+	// .swiper-button-prev,
+	// .swiper-rtl .swiper-button-next {
+	// 	left: 0px;
+	// 	right: auto;
+	// }
+	// .swiper-button-next,
+	// .swiper-rtl .swiper-button-prev {
+	// 	right: 0px;
+	// 	left: auto;
+	// }
 }

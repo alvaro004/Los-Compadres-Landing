@@ -821,6 +821,16 @@ a {
     -webkit-transform: translateY(-50%);
             transform: translateY(-50%);
   }
+  #banner-products .swiper-button-prev,
+  #banner-products .swiper-rtl .swiper-button-next {
+    left: 18px;
+    right: auto;
+  }
+  #banner-products .swiper-button-next,
+  #banner-products .swiper-rtl .swiper-button-prev {
+    right: 18px;
+    left: auto;
+  }
   #catalog {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
