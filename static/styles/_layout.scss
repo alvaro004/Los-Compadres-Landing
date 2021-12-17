@@ -8,16 +8,19 @@ html {
 	font-size: 62.5%;
 	min-width: 100%;
 	overflow-x: hidden;
+	height: -webkit-fill-available;
 }
 
 body {
 	font-family: sans-serif;
+	min-height: -webkit-fill-available;
+	// min-height: 100vh;
 }
 
 // GLOBAL STYLES
 
 section {
-	height: 100vh;
+	min-height: 100vh;
 	// min-width: 100%;
 	// overflow-x: hidden;
 	// scroll-snap-align: start; //for scrolling matters

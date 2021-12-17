@@ -18,14 +18,16 @@ html {
   font-size: 62.5%;
   min-width: 100%;
   overflow-x: hidden;
+  height: -webkit-fill-available;
 }
 
 body {
   font-family: sans-serif;
+  min-height: -webkit-fill-available;
 }
 
 section {
-  height: 100vh;
+  min-height: 100vh;
   background-color: #f2f2f2;
 }
 
@@ -482,7 +484,7 @@ a {
 }
 
 #contact .main-content {
-  height: 75vh;
+  height: 80vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -616,7 +618,7 @@ a {
 }
 
 #contact footer {
-  height: 25vh;
+  height: 20vh;
   background-color: #0d3f6a;
   color: white;
   font-family: "Outfit", sans-serif;
@@ -626,7 +628,7 @@ a {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  height: inherit;
+  height: 100%;
   width: 90%;
   margin: auto;
 }
@@ -636,6 +638,10 @@ a {
   display: -ms-flexbox;
   display: flex;
   width: 20%;
+}
+
+#contact footer .left-side img {
+  width: 100%;
 }
 
 #contact footer .right-side {
@@ -815,10 +821,6 @@ a {
   }
   #catalog .left-side {
     background-position: center;
-    height: inherit;
-  }
-  #catalog .right-side {
-    height: inherit;
   }
   #catalog .right-side .text-container h1 {
     text-align: center;
@@ -876,9 +878,6 @@ a {
   #testimonials .swiper-slide span {
     font-size: 1.5rem !important;
   }
-  #contact .main-content {
-    height: 85vh !important;
-  }
   #contact .contact-card {
     width: 36rem !important;
     height: 40rem !important;
@@ -891,9 +890,6 @@ a {
   }
   #contact .contact-card form button {
     font-size: 1.8rem !important;
-  }
-  #contact footer {
-    height: 15vh !important;
   }
   #contact footer .right-side h1 {
     font-size: 0.8rem !important;
@@ -940,11 +936,24 @@ a {
     font-size: 1.8rem !important;
     padding: 1rem !important;
   }
-  #contact footer {
-    height: 15vh !important;
+  #contact footer .content-footer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
   #contact footer .right-side h1 {
     font-size: 0.6rem !important;
+    padding: 0.6rem 0;
   }
   #contact footer .right-side span {
     font-size: 0.4rem !important;

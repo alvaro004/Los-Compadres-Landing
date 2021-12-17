@@ -1,6 +1,6 @@
 #contact {
 	.main-content {
-		height: 75vh;
+		height: 80vh;
 		display: flex;
 		justify-content: center;
 		align-items: center;
@@ -84,19 +84,22 @@
 		}
 	}
 	footer {
-		height: 25vh;
+		height: 20vh;
 		background-color: $blue-dark-color;
 		color: white;
 		font-family: $principal-font;
 		.content-footer {
 			display: flex;
-			height: inherit;
+			height: 100%;
 			width: 90%;
 			margin: auto;
 		}
 		.left-side {
 			display: flex;
 			width: 20%;
+			img {
+				width: 100%;
+			}
 		}
 		.right-side {
 			width: 80%;
