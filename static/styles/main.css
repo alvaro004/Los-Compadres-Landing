@@ -879,47 +879,6 @@ a {
     font-size: 1.5rem !important;
   }
   #contact .contact-card {
-    width: 36rem !important;
-    height: 40rem !important;
-  }
-  #contact .contact-card h1 {
-    font-size: 3rem !important;
-  }
-  #contact .contact-card form .container-box {
-    font-size: 1.8rem !important;
-  }
-  #contact .contact-card form button {
-    font-size: 1.8rem !important;
-  }
-  #contact footer .right-side h1 {
-    font-size: 0.8rem !important;
-  }
-  #contact footer .right-side span {
-    font-size: 0.6rem !important;
-  }
-}
-
-@media only screen and (max-width: 425px) {
-  #catalog .swiper {
-    height: 20rem !important;
-    width: 20rem;
-  }
-  #aboutUs .box-content h1 {
-    font-size: 2rem !important;
-    text-align: center;
-    margin-top: 0.5rem;
-  }
-  #aboutUs .box-content span {
-    font-size: 1rem !important;
-    text-align: center;
-  }
-  #testimonials .swiper-slide header h1 {
-    font-size: 1.6rem;
-  }
-  #testimonials .swiper-slide span {
-    font-size: 1rem !important;
-  }
-  #contact .contact-card {
     width: 28rem !important;
     height: 32rem !important;
   }
@@ -988,6 +947,28 @@ a {
   }
   #contact footer .right-side span {
     font-size: 0.8rem !important;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  #catalog .swiper {
+    height: 20rem !important;
+    width: 20rem;
+  }
+  #aboutUs .box-content h1 {
+    font-size: 2rem !important;
+    text-align: center;
+    margin-top: 0.5rem;
+  }
+  #aboutUs .box-content span {
+    font-size: 1rem !important;
+    text-align: center;
+  }
+  #testimonials .swiper-slide header h1 {
+    font-size: 1.6rem;
+  }
+  #testimonials .swiper-slide span {
+    font-size: 1rem !important;
   }
 }
 /*# sourceMappingURL=main.css.map */
