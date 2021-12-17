@@ -936,7 +936,33 @@ a {
     font-size: 1.8rem !important;
     padding: 1rem !important;
   }
+  #contact footer {
+    height: 50vh;
+  }
   #contact footer .content-footer {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  #contact footer .left-side {
+    width: 100%;
+    height: 30%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  #contact footer .left-side img {
+    width: 20rem;
+  }
+  #contact footer .right-side {
+    width: 100%;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -944,19 +970,24 @@ a {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    height: 70%;
+  }
+  #contact footer .right-side .info-box {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    text-align: center;
   }
   #contact footer .right-side h1 {
-    font-size: 0.6rem !important;
+    font-size: 1rem !important;
     padding: 0.5rem 0;
   }
   #contact footer .right-side span {
-    font-size: 0.4rem !important;
+    font-size: 0.8rem !important;
   }
 }
 /*# sourceMappingURL=main.css.map */
