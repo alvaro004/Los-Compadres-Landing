@@ -185,18 +185,18 @@
 
 	#contact {
 		.contact-card {
-			width: 28rem !important;
-			height: 32rem !important;
-			h1 {
-				font-size: 2.5rem !important;
-			}
+			// width: 28rem !important;
+			// height: 32rem !important;
+			// h1 {
+			// 	font-size: 2.5rem !important;
+			// }
 			form {
 				.container-box {
-					font-size: 1rem !important;
+					font-size: 1rem;
 				}
 				.main-body {
 					.c {
-						margin-right: 2.4rem !important;
+						margin-right: 2.4rem;
 					}
 				}
 				button {
@@ -279,13 +279,39 @@
 		}
 	}
 	#contact {
-		footer {
-			height: 60vh;
+		.contact-card {
+			h1 {
+				font-size: 3rem !important;
+			}
 		}
 	}
 }
 
-@media only screen and (max-width: 360px) {
+@media only screen and (min-width: 600px) and (max-width: 900px) {
+	#contact {
+		.main-content {
+			.contact-card {
+				h1 {
+					font-size: 6rem !important;
+					color: brown;
+				}
+				form {
+					.main-body {
+						.container-box {
+							font-size: 3.5rem;
+						}
+						input {
+							padding: 1.5rem;
+							width: 40rem;
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+@media only screen and (max-width: 900px) {
 	#contact {
 		.main-content {
 			// height: 80vh;
@@ -300,8 +326,6 @@
 				}
 				form {
 					height: 80%;
-					.main-body {
-					}
 				}
 			}
 		}
