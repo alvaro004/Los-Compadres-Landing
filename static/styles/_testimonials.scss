@@ -17,14 +17,15 @@
 		position: absolute;
 		display: flex;
 		justify-content: center;
-		margin-top: 5%;
+		margin-top: 15%;
 		h1 {
 			height: fit-content;
 			color: $orange-color;
 			font-size: 4rem;
 			border-radius: 0.6rem;
 
-			font-family: 'Outfit', sans-serif;
+			// font-family: 'Outfit', sans-serif;
+			font-family: 'Readex Pro', sans-serif;
 			padding: 2rem;
 			background-color: white;
 			box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
@@ -45,7 +46,8 @@
 			font-size: 2.5rem;
 			color: white;
 			// font-family: $navb-font;
-			font-family: 'Outfit', sans-serif;
+			// font-family: 'Outfit', sans-serif;
+			font-family: 'Readex Pro', sans-serif;
 		}
 		.text-container {
 			display: flex;
@@ -61,7 +63,8 @@
 			span {
 				font-size: 2rem;
 				// font-family: $navb-font;
-				font-family: 'Outfit', sans-serif;
+				// font-family: 'Outfit', sans-serif;
+				font-family: 'Readex Pro', sans-serif;
 			}
 		}
 	}

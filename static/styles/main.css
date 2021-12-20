@@ -156,7 +156,7 @@ a {
 }
 
 #banner-products .left-side h2 {
-  font-family: "Outfit", sans-serif;
+  font-family: 'Readex Pro', sans-serif;
   font-size: 4rem;
   color: #0d3f6a;
   margin-bottom: 2rem;
@@ -240,7 +240,7 @@ a {
 #catalog .right-side .text-container h1 {
   font-size: 5rem;
   color: #1e1e5a;
-  font-family: "Outfit", sans-serif;
+  font-family: 'Readex Pro', sans-serif;
   margin-top: 2rem;
 }
 
@@ -307,7 +307,7 @@ a {
   background-color: #3f3d56;
   padding: 1rem;
   border-radius: 0.6rem;
-  font-family: 'Outfit', sans-serif;
+  font-family: 'Readex Pro', sans-serif;
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
   position: absolute;
@@ -385,7 +385,7 @@ a {
   color: #0d3f6a;
   font-size: 6rem;
   margin-bottom: 2rem;
-  font-family: "Outfit", sans-serif;
+  font-family: 'Readex Pro', sans-serif;
 }
 
 #aboutUs .right-side .box-content span {
@@ -420,7 +420,7 @@ a {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  margin-top: 5%;
+  margin-top: 15%;
 }
 
 #testimonials .text-content h1 {
@@ -430,7 +430,7 @@ a {
   color: #f55a56;
   font-size: 4rem;
   border-radius: 0.6rem;
-  font-family: 'Outfit', sans-serif;
+  font-family: 'Readex Pro', sans-serif;
   padding: 2rem;
   background-color: white;
   -webkit-box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
@@ -459,7 +459,7 @@ a {
   border-radius: 0.6rem 0.6rem 0 0;
   font-size: 2.5rem;
   color: white;
-  font-family: 'Outfit', sans-serif;
+  font-family: 'Readex Pro', sans-serif;
 }
 
 #testimonials .swiper-slide .text-container {
@@ -481,7 +481,7 @@ a {
 
 #testimonials .swiper-slide .text-container span {
   font-size: 2rem;
-  font-family: 'Outfit', sans-serif;
+  font-family: 'Readex Pro', sans-serif;
 }
 
 #testimonials .left-background,
@@ -527,7 +527,7 @@ a {
   -webkit-box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
           box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
   color: white;
-  font-family: "Outfit", sans-serif;
+  font-family: 'Readex Pro', sans-serif;
 }
 
 #contact .main-content .contact-card h1 {
@@ -614,7 +614,7 @@ a {
   padding: 2rem;
   cursor: pointer;
   font-size: 2rem;
-  font-family: "Outfit", sans-serif;
+  font-family: 'Readex Pro', sans-serif;
   font-weight: bolder;
   background-color: #f55a56;
   -webkit-box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
@@ -634,7 +634,7 @@ a {
   height: 25vh;
   background-color: #0d3f6a;
   color: white;
-  font-family: "Outfit", sans-serif;
+  font-family: 'Readex Pro', sans-serif;
 }
 
 #contact footer .content-footer {
@@ -980,6 +980,9 @@ a {
     font-size: 1rem !important;
     text-align: center;
   }
+  #testimonials .text-content {
+    margin-top: 30%;
+  }
   #testimonials .swiper-slide header h1 {
     font-size: 1.6rem;
   }
@@ -987,7 +990,7 @@ a {
     font-size: 1rem !important;
   }
   #testimonials .text-content {
-    margin-top: 15% !important;
+    margin-top: 20% !important;
   }
   #contact .contact-card h1 {
     font-size: 3rem !important;
@@ -1006,9 +1009,12 @@ a {
     padding: 1.5rem;
     width: 40rem;
   }
+  #contact footer {
+    height: 30vh;
+  }
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 600px) {
   #contact .main-content {
     height: 100vh;
     width: 100%;
@@ -1024,7 +1030,7 @@ a {
     height: 80%;
   }
   #contact footer {
-    height: 65vh;
+    height: 55vh;
   }
 }
 /*# sourceMappingURL=main.css.map */

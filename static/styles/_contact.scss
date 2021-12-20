@@ -14,7 +14,8 @@
 			border-radius: 2rem;
 			box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
 			color: white;
-			font-family: $principal-font;
+			// font-family: $principal-font;
+			font-family: 'Readex Pro', sans-serif;
 			h1 {
 				font-size: 5rem;
 				position: relative;
@@ -67,7 +68,8 @@
 						padding: 2rem;
 						cursor: pointer;
 						font-size: 2rem;
-						font-family: $principal-font;
+						// font-family: $principal-font;
+						font-family: 'Readex Pro', sans-serif;
 						font-weight: bolder;
 						background-color: $orange-color;
 						box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
@@ -87,7 +89,8 @@
 		height: 25vh;
 		background-color: $blue-dark-color;
 		color: white;
-		font-family: $principal-font;
+		// font-family: $principal-font;
+		font-family: 'Readex Pro', sans-serif;
 		.content-footer {
 			display: flex;
 			height: 100%;

@@ -266,6 +266,9 @@
 		}
 	}
 	#testimonials {
+		.text-content {
+			margin-top: 30%;
+		}
 		.swiper-slide {
 			header h1 {
 				font-size: 1.6rem;
@@ -275,7 +278,7 @@
 			}
 		}
 		.text-content {
-			margin-top: 15% !important;
+			margin-top: 20% !important;
 		}
 	}
 	#contact {
@@ -308,10 +311,13 @@
 				}
 			}
 		}
+		footer {
+			height: 30vh;
+		}
 	}
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 600px) {
 	#contact {
 		.main-content {
 			// height: 80vh;
@@ -332,7 +338,7 @@
 	}
 	#contact {
 		footer {
-			height: 65vh;
+			height: 55vh;
 		}
 	}
 }
