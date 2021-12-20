@@ -993,5 +993,31 @@ a {
   #testimonials .swiper-slide span {
     font-size: 1rem !important;
   }
+  #testimonials .text-content {
+    margin-top: 15% !important;
+  }
+  #contact footer {
+    height: 60vh;
+  }
+}
+
+@media only screen and (max-width: 330px) {
+  #contact .main-content {
+    height: 100vh;
+    width: 100%;
+  }
+  #contact .main-content .contact-card {
+    width: 95% !important;
+    height: 95% !important;
+  }
+  #contact .main-content .contact-card h1 {
+    height: 20%;
+  }
+  #contact .main-content .contact-card form {
+    height: 80%;
+  }
+  #contact footer {
+    height: 65vh;
+  }
 }
 /*# sourceMappingURL=main.css.map */
