@@ -991,7 +991,7 @@ a {
     font-size: 1rem !important;
   }
   #testimonials .text-content {
-    margin-top: 20% !important;
+    margin-top: 20%;
   }
   #contact .contact-card h1 {
     font-size: 3rem !important;
@@ -1031,6 +1031,12 @@ a {
   }
   #contact footer {
     height: 30vh;
+  }
+}
+
+@media only screen and (min-width: 200px) and (max-width: 850px) {
+  #testimonials .text-content {
+    margin-top: 35%;
   }
 }
 

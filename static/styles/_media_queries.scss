@@ -278,7 +278,7 @@
 			}
 		}
 		.text-content {
-			margin-top: 20% !important;
+			margin-top: 20%;
 		}
 	}
 	#contact {
@@ -325,6 +325,14 @@
 	}
 }
 
+@media only screen and (min-width: 200px) and (max-width: 850px) {
+	#testimonials {
+		.text-content {
+			margin-top: 35%;
+		}
+	}
+}
+
 @media only screen and (max-width: 600px) {
 	#contact {
 		.main-content {
@@ -361,8 +369,6 @@
 				}
 			}
 		}
-	}
-	#contact {
 		footer {
 			height: 55vh;
 		}
