@@ -1060,6 +1060,9 @@ a {
     font-size: 2.5rem;
     margin-bottom: 1rem;
   }
+  #contact .main-content .contact-card form .main-body .container-box label {
+    margin-bottom: 1rem;
+  }
   #contact .main-content .contact-card form .main-body input {
     padding: 1rem;
     width: 60vw;
