@@ -81,9 +81,9 @@
 		.left-side {
 			transform: translateY(50%);
 			.swiper {
-				height: 30rem;
+				height: 36rem;
 				padding: 2rem;
-				max-width: 28rem;
+				max-width: 35rem;
 			}
 			h2 {
 				font-size: 3rem;
@@ -286,6 +286,10 @@
 			h1 {
 				font-size: 3rem !important;
 			}
+			.main-body {
+				display: flex;
+				flex-direction: column;
+			}
 		}
 	}
 }
@@ -294,17 +298,21 @@
 	#contact {
 		.main-content {
 			.contact-card {
+				height: 75%;
 				h1 {
-					font-size: 6rem !important;
-					color: brown;
+					font-size: 4rem !important;
+					// color: brown;
 				}
 				form {
 					.main-body {
 						.container-box {
-							font-size: 3.5rem;
+							font-size: 2.5rem;
+							display: flex;
+							flex-direction: column;
+							margin-bottom: 1rem;
 						}
 						input {
-							padding: 1.5rem;
+							padding: 1rem;
 							width: 40rem;
 						}
 					}

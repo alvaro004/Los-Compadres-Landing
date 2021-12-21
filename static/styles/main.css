@@ -809,9 +809,9 @@ a {
             transform: translateY(50%);
   }
   #banner-products .left-side .swiper {
-    height: 30rem;
+    height: 36rem;
     padding: 2rem;
-    max-width: 28rem;
+    max-width: 35rem;
   }
   #banner-products .left-side h2 {
     font-size: 3rem;
@@ -995,18 +995,37 @@ a {
   #contact .contact-card h1 {
     font-size: 3rem !important;
   }
+  #contact .contact-card .main-body {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
 }
 
 @media only screen and (min-width: 600px) and (max-width: 900px) {
+  #contact .main-content .contact-card {
+    height: 75%;
+  }
   #contact .main-content .contact-card h1 {
-    font-size: 6rem !important;
-    color: brown;
+    font-size: 4rem !important;
   }
   #contact .main-content .contact-card form .main-body .container-box {
-    font-size: 3.5rem;
+    font-size: 2.5rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin-bottom: 1rem;
   }
   #contact .main-content .contact-card form .main-body input {
-    padding: 1.5rem;
+    padding: 1rem;
     width: 40rem;
   }
   #contact footer {

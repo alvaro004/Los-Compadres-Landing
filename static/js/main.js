@@ -1,8 +1,9 @@
 // CAROUSEL BASED ON THE WIEW PORT
 let sizeChange = window.innerWidth;
-// console.log(sizeChange);
+// console.log(window.innerWidth);
 const changeSwipper = function () {
-	if (sizeChange <= 970) {
+	// console.log(window.innerWidth);
+	if (window.innerWidth <= 970) {
 		var swiper = new Swiper('.mySwiper', {
 			slidesPerView: 1,
 			spaceBetween: 30,
@@ -31,10 +32,10 @@ const changeSwipper = function () {
 				el: '.swiper-pagination',
 				clickable: true,
 			},
-			// autoplay: {
-			// 	delay: 5000,
-			// 	disableOnInteraction: false,
-			// },
+			autoplay: {
+				delay: 5000,
+				disableOnInteraction: false,
+			},
 			navigation: {
 				nextEl: '.swiper-button-next',
 				prevEl: '.swiper-button-prev',
