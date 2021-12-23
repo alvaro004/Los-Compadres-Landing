@@ -1,50 +1,36 @@
-// CAROUSEL BASED ON THE WIEW PORT
-let sizeChange = window.innerWidth;
-// console.log(window.innerWidth);
-const changeSwipper = function () {
-	// console.log(window.innerWidth);
-	if (window.innerWidth <= 970) {
-		var swiper = new Swiper('.mySwiper', {
-			slidesPerView: 1,
-			spaceBetween: 30,
-			loop: true,
-			pagination: {
-				el: '.swiper-pagination',
-				clickable: true,
-			},
-			autoplay: {
-				delay: 5000,
-				disableOnInteraction: false,
-			},
-			navigation: {
-				nextEl: '.swiper-button-next',
-				prevEl: '.swiper-button-prev',
-			},
-		});
-	} else {
-		let swiper = new Swiper('.mySwiper', {
+// responsive carousel
+
+let swiper = new Swiper('.mySwiper', {
+	slidesPerView: 1,
+	spaceBetween: 30,
+	slidesPerGroup: 1,
+	loop: true,
+	loopFillGroupWithBlank: true,
+	pagination: {
+		el: '.swiper-pagination',
+		clickable: true,
+	},
+	autoplay: {
+		delay: 5000,
+		disableOnInteraction: false,
+	},
+	navigation: {
+		nextEl: '.swiper-button-next',
+		prevEl: '.swiper-button-prev',
+	},
+	breakpoints: {
+		1080: {
 			slidesPerView: 3,
 			spaceBetween: 30,
 			slidesPerGroup: 3,
-			loop: true,
-			loopFillGroupWithBlank: true,
-			pagination: {
-				el: '.swiper-pagination',
-				clickable: true,
-			},
-			autoplay: {
-				delay: 5000,
-				disableOnInteraction: false,
-			},
-			navigation: {
-				nextEl: '.swiper-button-next',
-				prevEl: '.swiper-button-prev',
-			},
-		});
-	}
-};
-
-changeSwipper();
+		},
+		500: {
+			slidesPerView: 2,
+			spaceBetween: 30,
+			slidesPerGroup: 2,
+		},
+	},
+});
 
 // ANIMATIONS
 

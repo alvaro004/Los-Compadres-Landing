@@ -83,7 +83,7 @@
 			.swiper {
 				height: 36rem;
 				padding: 2rem;
-				max-width: 35rem;
+				// max-width: 35rem;
 			}
 			h2 {
 				font-size: 3rem;
@@ -133,7 +133,7 @@
 
 		.swiper {
 			height: 28rem !important;
-			width: 26rem;
+			// width: 26rem;
 		}
 	}
 
@@ -245,12 +245,12 @@
 @media only screen and (max-width: 425px) {
 	// /Small smartphones [325px -> 425px]/
 
-	#catalog {
-		.swiper {
-			height: 20rem !important;
-			width: 20rem;
-		}
-	}
+	// #catalog {
+	// 	.swiper {
+	// 		height: 20rem !important;
+	// 		width: 20rem;
+	// 	}
+	// }
 
 	#aboutUs {
 		.box-content {
